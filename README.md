@@ -13,6 +13,13 @@ These are the instruction that I used to setup my Manjaro disto
 - Intellij Ultimate
 - onedrive
 - Gnome DE
+- Docker
+  ```fish
+     sudo pacman -S docker docker-compose
+     sudo usermod -aG docker $USER
+     sudo systemctl start docker
+     sudo systemctl enable docker
+  ```
 - SSH for Github
   ```fish
      ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
