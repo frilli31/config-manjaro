@@ -19,6 +19,8 @@ These are the instruction that I used to setup my Manjaro disto
      sudo usermod -aG docker $USER
      sudo systemctl start docker
      sudo systemctl enable docker
+     alias dk "docker"
+     funcsave dk
   ```
 - SSH for Github
   ```fish
