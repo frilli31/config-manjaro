@@ -13,6 +13,14 @@ These are the instruction that I used to setup my Manjaro disto
 - Intellij Ultimate
 - onedrive
 - Gnome DE
+- SSH for Github
+  ```fish
+     ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+     ssh-add ~/.ssh/id_rsa
+     sudo pacman -Sy xclip
+     xclip -sel clip < ~/.ssh/id_rsa.pub
+  ```
+  and insert It at: https://github.com/settings/keys
 
 ## Codes
 
