@@ -13,6 +13,7 @@ These are the instruction that I used to setup my Manjaro disto
 - Intellij Ultimate
 - onedrive
 - Gnome DE
+- Google translate on terminal
 - Docker
   ```fish
      sudo pacman -S docker docker-compose
@@ -35,7 +36,7 @@ These are the instruction that I used to setup my Manjaro disto
 
 ```shell
 sudo pacman -Syu
-sudo pacman -Sy tilix fish code telegram-desktop okular rust
+sudo pacman -Sy tilix fish code telegram-desktop okular rust translate-shell
 chsh -s /usr/bin/fish
 
 mkdir .packages && cd .packages && git clone https://aur.archlinux.org/intellij-idea-ultimate-edition.git && cd intellij-idea-ultimate-edition && makepkg -si <<< Y && cd ..
