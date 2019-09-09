@@ -14,6 +14,7 @@ These are the instruction that I used to setup my Manjaro disto
 - onedrive
 - Gnome DE
 - Google translate on terminal
+- fzf : fuzzy finder
 - Docker
   ```fish
      sudo pacman -S docker docker-compose
@@ -46,6 +47,10 @@ git clone https://aur.archlinux.org/onedrive.git && cd onedrive && makepkg -si <
 sudo pacman -S gnome-extra gdm manjaro-gnome-assets manjaro-gdm-theme manjaro-settings-manager && sudo systemctl -f enable gdm.service
 
 set -U fish_user_paths /home/luca/.cargo/bin/ $fish_user_paths
+
+alias dk "docker"
+funcsave dk
+alias trit "trans -t ITA"
 ```
 
 ## Drivers
