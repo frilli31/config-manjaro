@@ -15,6 +15,7 @@ These are the instruction that I used to setup my Manjaro disto
 - Gnome DE
 - Google translate on terminal
 - fzf : fuzzy finder
+- **Joplin** : markdown note taking and to-do application
 - Docker
   ```fish
      sudo pacman -S docker docker-compose
@@ -43,6 +44,7 @@ chsh -s /usr/bin/fish
 mkdir .packages && cd .packages && git clone https://aur.archlinux.org/intellij-idea-ultimate-edition.git && cd intellij-idea-ultimate-edition && makepkg -si <<< Y && cd ..
 
 git clone https://aur.archlinux.org/onedrive.git && cd onedrive && makepkg -si <<< Y && cd ..
+git clone https://aur.archlinux.org/joplin.git && cd joplin && makepkg -si <<< Y && cd ..
 
 sudo pacman -S gnome-extra gdm manjaro-gnome-assets manjaro-gdm-theme manjaro-settings-manager && sudo systemctl -f enable gdm.service
 
